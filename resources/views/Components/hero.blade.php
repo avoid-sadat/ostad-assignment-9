@@ -35,7 +35,7 @@
                     <div class="one-forth d-flex align-items-center ftco-animate"
                          data-scrollax=" properties: { translateY: '70%' }">
                         <div class="text">
-                            <span class="subheading">We Design &amp; Build Brands</span>
+                            <span class="subheading"> Design &amp; Build Brands</span>
                             <h1 class="mb-4 mt-3">Hi, I am <span>Sadat</span> This is my favorite work.</h1>
                             <p><a href="#" class="btn btn-primary">Hire me</a> <a href="#"
                                                                                   class="btn btn-primary btn-outline-primary">Download

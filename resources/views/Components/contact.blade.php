@@ -9,27 +9,40 @@
 
         <div class="row block-9">
             <div class="col-md-8">
-                <form action="#" class="bg-light p-4 p-md-5 contact-form">
+                <form action={{ route('contact.submit') }} method="post" class="bg-light p-4 p-md-5 contact-form">
+                    @csrf
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your Name">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name">
+                                @error('name')
+                                <p class="text-danger">{{ $message }}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your Email">
+                                <input type="text" name="email" class="form-control" placeholder="Your Email">
+                                @error('email')
+                                <p class="text-danger">{{ $message }}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Subject">
+                                <input type="text" name="subject" class="form-control" placeholder="Subject">
+                                @error('subject')
+                                <p class="text-danger">{{ $message }}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <textarea name="" id="" cols="30" rows="7" class="form-control"
+                                <textarea name="message" id="" cols="30" rows="7" class="form-control"
                                           placeholder="Message"></textarea>
+                                @error('message')
+                                <p class="text-danger">{{ $message }}</p>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-md-12">

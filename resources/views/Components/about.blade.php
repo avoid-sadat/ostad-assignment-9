@@ -7,7 +7,7 @@
                         <span class="flaticon-suitcase"></span>
                     </div>
                     <div class="text">
-                        <strong class="number" data-number="750">0</strong>
+                        <strong class="number" data-number="6">6</strong>
                         <span>Project Complete</span>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                         <span class="flaticon-loyalty"></span>
                     </div>
                     <div class="text">
-                        <strong class="number" data-number="568">0</strong>
+                        <strong class="number" data-number="0">0</strong>
                         <span>Happy Clients</span>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                         <span class="flaticon-coffee"></span>
                     </div>
                     <div class="text">
-                        <strong class="number" data-number="478">0</strong>
+                        <strong class="number" data-number="0">0</strong>
                         <span>Cups of coffee</span>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                         <span class="flaticon-calendar"></span>
                     </div>
                     <div class="text">
-                        <strong class="number" data-number="780">0</strong>
+                        <strong class="number" data-number="3">3+</strong>
                         <span>Years experienced</span>
                     </div>
                 </div>
@@ -73,10 +73,14 @@
                             <ul class="about-info mt-4 px-md-0 px-2">
                                 <li class="d-flex"><span>Name:</span> <span>Anwar Sadat</span></li>
                                 <li class="d-flex"><span>Date of birth:</span> <span>February 20, 1989</span></li>
+                                <li class="d-flex"><span>Education:</span> <span>Computer Science & Engineering</span></li>
                                 <li class="d-flex"><span>Address:</span> <span>Hathazri,chattogram ,Bangladesh</span></li>
                                 <li class="d-flex"><span>Zip code:</span> <span>4330</span></li>
                                 <li class="d-flex"><span>Email:</span> <span>sadat.m44@yahoo.com</span></li>
                                 <li class="d-flex"><span>Phone: </span> <span>+8801926994277</span></li>
+                                <li class="d-flex"><span>Certificate: </span> <span>NHIPP,BTCL Training</span></li>
+                                <li class="d-flex"><span>Git: </span><a href="https://github.com/avoid-sadat"> <span>github.com/avoid-sadat</span></a></li>
+                                <li class="d-flex"><span>Linkedin: </span><a href="https://www.linkedin.com/in/mohammad-anwar-sadat-01378417b"> <span>Anwar Sadat</span></a></li>
                             </ul>
                         </div>
                         <div class="col-md-12">
@@ -113,6 +117,7 @@
         </div>
     </div>
 </section>
+
 
 
 {{--<section class="ftco-section" id="services-section">--}}
